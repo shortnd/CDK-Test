@@ -4,28 +4,60 @@
 <head>
   <meta charset="utf-8">
   <title>Staff Page</title>
+  <!-- <link rel="stylesheet" href="reset.css"> -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
     <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Search</a></li>
-        <li><a href="#">Welcome</a></li>
-        <li><a href="#">Contact</a></li>
+      <ul class="nav-bar">
+          <a href="#">
+            <li class="nav-item">Home</li>
+          </a>
+        <div class="dropdown">
+          <a href="#">
+            <li class="nav-item" id="search">Search</li>
+          </a>
+          <div class="search-content">
+              <a href="#">
+                Search New
+              </a>
+              <a href="#">
+                Search Used
+              </a>
+              <a href="#">
+                Search Cars
+              </a>
+              <a href="#">
+                Search Trucks
+              </a>
+              <a href="#">
+                Search SUV's
+              </a>
+              <a href="#">
+                Request Quote
+              </a>
+          </div>
+        </div>
+        <a href="#">
+          <li class="nav-item" id="welcome">Welcome</li>
+        </a>
+        <a href="#">
+          <li class="nav-item" id="welcome">Contact</li>
+        </a>
       </ul>
     </nav>
   </header>
   <section class="contacts" id="sales">
-    <h4>Sales Dept:</h4>
+    <h4 class="contact-header">Sales Dept:</h4>
     <ul>
       <li>Abdul. Phone: 555-5550</li>
       <li>David. Phone: 555-5551</li>
     </ul>
   </section>
   <section class="contacts" id="Service">
-    <h4>Service Dept:</h4>
+    <h4 class="contact-header">Service Dept:</h4>
     <ul>
       <li>Angie. Phone: 555-5552</li>
       <li>Matt. Phone: 555-5553</li>
@@ -33,18 +65,21 @@
     </ul>
   </section>
   <section class="contacts" id="Parts">
-    <h4>Parts Dept:</h4>
+    <h4 class="contact-header">Parts Dept:</h4>
     <ul>
       <li>Chris. Phone: 555-5555</li>
       <li>Sean. Phone: 555-5556</li>
     </ul>
   </section>
   <section class="contacts" id="Finance">
-    <h4>Finance Dept:</h4>
+    <h4 class="contact-header">Finance Dept:</h4>
     <ul>
       <li>Brian. Phone 555-5557</li>
     </ul>
   </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js" charset="utf-8"></script>
 </body>
 
 </html>
