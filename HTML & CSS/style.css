@@ -5,9 +5,17 @@ html {
 }
 
 body {
-  width: 85%;
+  width: 1020px;
   margin: 0 auto;
   background-color: #ffffff;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-between;
 }
 
 nav ul {
@@ -80,4 +88,24 @@ a {
 .search-content a:hover {
   background: #5f5f5f;
   color: #ffffff;
+}
+
+.sidead {
+  float: left;
+}
+
+iframe {
+  margin: 20px;
+}
+
+.topAd {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.adMain {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
 }
