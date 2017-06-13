@@ -120,3 +120,8 @@ iframe {
 .innerList {
   list-style: none;
 }
+
+.innerList img {
+  height: 25%;
+  width: 25%;
+}
